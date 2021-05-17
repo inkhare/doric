@@ -1,0 +1,17 @@
+[package]
+name = "doric"
+version = "0.1.0"
+authors = ["inkhare <iapricot@foxmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arc-swap = "1.2"
+chrono = "0.4"
+crossbeam-queue = "0.3.1"
+log = { version = "0.4.8", features = ["std"] }
+
+[[example]]
+name = "examples"
+path = "test.rs"
