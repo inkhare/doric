@@ -5,7 +5,7 @@ A highly simple asynchronous logging lib for Rust
 To use `doric`, add the dependencies to your `Cargo.toml`
 ```toml
 [dependencies]
-netns = { git = 'https://github.com/inkhare/doric', branch = 'main' }
+doric = { git = 'https://github.com/inkhare/doric', branch = 'main' }
 ```
 
 Testing:
