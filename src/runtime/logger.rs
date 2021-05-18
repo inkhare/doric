@@ -39,7 +39,6 @@ impl RawLogger {
 
         let _handle = thread::spawn(move || {
             endpoint::EndpointBuilder::new().build(&sub_conf, lq);
-            //builder.new(&sub_conf, lq);
         });
 
         let h = Handler {
